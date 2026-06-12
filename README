@@ -1,0 +1,94 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+# HeadPilot 🚀
+
+### Real-Time Head Controlled Mouse Using OpenCV & Python
+
+HeadPilot is a computer vision project that allows users to control the mouse cursor using head movements detected through a webcam. The system uses OpenCV Haar Cascade classifiers to detect faces and eyes in real time and translates facial movements into mouse cursor actions.
+
+## Features
+
+* Real-time face detection
+* Eye detection using Haar Cascade
+* Mouse cursor control through head movement
+* Hands-free interaction
+* Lightweight and easy to run
+* Built with Python and OpenCV
+
+## Technologies Used
+
+* Python 3
+* OpenCV
+* PyAutoGUI
+* Haar Cascade Classifiers
+
+## How It Works
+
+1. Captures live video from the webcam.
+2. Detects the user's face and eyes.
+3. Tracks the face position on the screen.
+4. Moves the mouse cursor according to head movements.
+5. Updates cursor position in real time.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/HeadPilot.git
+cd HeadPilot
+```
+
+Install dependencies:
+
+```bash
+pip install opencv-python pyautogui
+```
+
+Make sure the following Haar Cascade files are available in the project directory:
+
+* haarcascade_frontalface_alt.xml
+* haarcascade_eye.xml
+
+## Usage
+
+Run the script:
+
+```bash
+python main.py
+```
+
+Press **Q** to quit the application.
+
+## Project Structure
+
+```text
+HeadPilot/
+│
+├── main.py
+├── haarcascade_frontalface_alt.xml
+├── haarcascade_eye.xml
+└── README.md
+```
+
+## Use Cases
+
+* Accessibility tools
+* Human-Computer Interaction (HCI)
+* Computer Vision learning
+* AI and automation projects
+* Hands-free computer control
+
+## Future Improvements
+
+* Blink detection for mouse clicks
+* Smoother cursor movement
+* Facial landmark tracking with MediaPipe
+* Multi-monitor support
+* Custom sensitivity settings
+
+## License
+
+This project is open-source and available under the MIT License.
